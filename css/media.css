@@ -1,0 +1,132 @@
+@media (max-width: 912px) {
+
+    .main__wrap {
+        flex-wrap: wrap;
+    }
+
+    .graph-modal__container {
+        width: calc(100% - 340px);
+        vertical-align: top;
+        padding: 25px 30px 36px 30px;
+        margin: 0;
+        margin: 0 170px;
+    }
+
+    .graph-modal:before {
+        height: 11%;
+    }
+
+    .main__title {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 106%;
+        margin-bottom: 22px;
+    }
+
+    .main__descr {
+        max-width: 364px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        letter-spacing: 0.8px;
+    }
+
+    .main__agreement {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__button {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .main__agree {
+        width: 100%;
+    }
+
+    .main__textarea {
+        padding: 17px 15px 16px 17px;
+        margin-bottom: 26px;
+    }
+
+    .graph-modal__close {
+        position: absolute;
+        right: 15px;
+        top: 30px;
+        border: none;
+        padding: 0;
+        width: 36px;
+        height: 36px;
+        background-color: transparent;
+        background-image: url(/img/close-768.svg);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 680px) {
+    .graph-modal__container {
+        width: calc(100% - 5px);
+        margin: 261px auto;
+        padding: 16px 14px 5px 10px;
+    }
+
+    .main__mobile {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        padding: 17px 15px 16px 17px;
+        margin-bottom: 25px;
+    }
+
+    .main__textarea {
+        display: none;
+    }
+
+    .main__title {
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 106%;
+        margin-bottom: 17px;
+    }
+
+    .main__descr {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        letter-spacing: 0.7px;
+        margin-bottom: 26px;
+    }
+
+    .main__input,
+    .main__textarea {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        letter-spacing: 0.8px;
+    }
+
+    .main__agreement {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        letter-spacing: 0.8px;
+    }
+
+    .graph-modal__close {
+        right: -6px;
+        top: 9px;
+    }
+
+    .main__agree {
+        display: none;
+    }
+}
