@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/graph-modal.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <button class="button btn-reset">
+            Заполните заявку
+        </button>
+
+        <div class="graph-modal">
+            <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="first">
+                <button class="btn-reset graph-modal__close js-modal-close"
+                    aria-label="Закрыть модальное окно"></button>
+                <div class="graph-modal__content">
+                    <div class="main entry-active">
+                        <h2 class="main__title title">
+                            Заполните заявку на&nbsp;консультацию
+                        </h2>
+                        <p class="main__descr p-reset">
+                            Наш специалист свяжется с&nbsp;Вами и&nbsp;ответит на&nbsp;любые вопросы
+                        </p>
+                        <form action="https://jsonplaceholder.typicode.com/posts" class="main__form">
+                            <div class="main__wrap">
+                                <input class="main__input inp-reset" type="text" placeholder="Имя">
+                                <input class="main__input inp-reset" type="text" placeholder="Телефон">
+                            </div>
+                            <input class="main__textarea inp-reset" type="text"
+                                placeholder="Напишите, какой у Вас вопрос?">
+                            <input class="main__mobile inp-reset" type="text"
+                                placeholder="Какой у Вас вопрос?">
+                            <div class="main__agreement">
+                                <button class="main__button btn-reset">
+                                    Получить консультацию
+                                </button>
+                                <p class="main__agree">
+                                    Я соглашаюсь на <a href="#" class="main__link link-reset">обработку персональных данных</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/graph-modal.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
