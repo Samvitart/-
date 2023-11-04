@@ -2,7 +2,7 @@
     font-family: 'Gilroy';
     src: local('Gilroy-Bold'), url(../fonts/Gilroy-Bold.woff2) format("woff2");
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
 }
 
 @font-face {
@@ -130,7 +130,7 @@ body {
 
 .main__title {
     font-size: 42px;
-    font-style: bold;
+    font-style: normal;
     line-height: 106%;
     margin-bottom: 26px;
 }
